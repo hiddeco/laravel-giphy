@@ -1,0 +1,22 @@
+{
+  "name": "hiddeco/laravel-giphy",
+  "description": "Giphy API wrapper for Laravel and Lumen based on Guzzle",
+  "keywords": ["giphy", "api", "laravel"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Hidde Beydals",
+      "email": "hello@hidde.co"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0",
+    "illuminate/support": "5.0.*|5.1.*",
+    "guzzlehttp/guzzle": "~5.0|~5.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "HiddeCo\\Giphy\\": "src/HiddeCo/Giphy"
+    }
+  }
+}
