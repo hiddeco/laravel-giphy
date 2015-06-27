@@ -10,9 +10,9 @@
  * @version 0.1
  */
 
-use HiddeCo\Giphy\Contracts\Sticker as StickerContract;
+use HiddeCo\Giphy\Contracts\StickerInterface;
 
-class Sticker implements StickerContract {
+class Sticker implements StickerInterface {
 
 	public function __construct(Client $client)
 	{

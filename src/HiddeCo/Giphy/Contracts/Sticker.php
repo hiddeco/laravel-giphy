@@ -10,7 +10,7 @@
  * @version 0.1
  */
 
-interface Sticker {
+interface StickerInterface {
 
 	/**
 	 * Searches for a sticker GIF and returns results.

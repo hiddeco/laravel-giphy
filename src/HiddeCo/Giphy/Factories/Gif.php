@@ -10,9 +10,9 @@
  * @version 0.1
  */
 
-use HiddeCo\Giphy\Contracts\Gif as GifContract;
+use HiddeCo\Giphy\Contracts\GifInterface;
 
-class Gif implements GifContract {
+class Gif implements GifInterface {
 
 	public function __construct(Client $client)
 	{

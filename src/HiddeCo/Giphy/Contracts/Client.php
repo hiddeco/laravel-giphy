@@ -9,7 +9,7 @@
  * @author  Hidde Beydals <hello@hidde.co>
  * @version 0.1
  */
-interface Client {
+interface ClientInterface {
 
 	/**
 	 * @param       $endPoint

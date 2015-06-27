@@ -10,10 +10,10 @@
  * @version 0.1
  */
 
-use HiddeCo\Giphy\Contracts\Client as ClientContract;
+use HiddeCo\Giphy\Contracts\ClientInterface;
 use GuzzleHttp\Client as HttpClient;
 
-class Client implements ClientContract {
+class Client implements ClientInterface {
 
 	/**
 	 * @var HttpClient

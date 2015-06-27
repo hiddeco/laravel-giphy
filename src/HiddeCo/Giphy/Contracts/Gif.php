@@ -10,7 +10,7 @@
  * @version 0.1
  */
 
-interface Gif {
+interface GifInterface {
 
 	/**
 	 * Searches for a GIF.

@@ -10,10 +10,10 @@ To use this package without running in to trouble you will need PHP 5.5+ or HHVM
 1. Get the latest version of Laravel Giphy, add the following line to your `composer.json` file
 
 	````"hiddeco/laravel-giphy": "0.1.*@alpha"````
-    
+
 2. Run `composer update` or `composer install`
 
-3. Register the Laravel Giphy service provider in `config/app.php` by adding 
+3. Register the Laravel Giphy service provider in `config/app.php` by adding
 `'HiddeCo\Ghiphy\GiphyServiceProvider` to the providers key
 
 4. Add the `Giphy` facade to the `aliases` key: `'Giphy'	=> 'HiddeCo\Giphy\Facades\Giphy'`
@@ -21,7 +21,7 @@ To use this package without running in to trouble you will need PHP 5.5+ or HHVM
 ## Configuration
 The only configuration Laravel Giphy needs is a `GIPHY_API_KEY` in your `.env` file. A public beta key is available in the [Giphy API Documentation](https://github.com/giphy/GiphyAPI).
 
-*Note: On Laravel it is also possible to configure Laravel Giphy by running `php artisan config:publish` and adding your `apiKey` to `config/giphy.php`.* 
+*Note: On Laravel it is also possible to configure Laravel Giphy by running `php artisan config:publish` and adding your `apiKey` to `config/giphy.php`.*
 
 ## Injecting `Giphy`
 Injecting `Giphy` in to a controller could not have been any easier.
@@ -33,11 +33,11 @@ class GifController extends BaseController {
 
 	public function __construct(HiddeCo\Giphy\Giphy $giphy)
     {
-   
+
 		$this->giphy = $giphy;
-        
+
 	}
-  
+
   	public function get($id)
    	{
 		try
@@ -111,7 +111,7 @@ Giphy::gif()->trending(['limit' => 100, 'rating' => 'pg', 'fmt' => 'html');
 ````
 
 ### Giphy: Stickers
-Giphy stickers are animated stickers (animated GIFs with transparent backgrounds). 
+Giphy stickers are animated stickers (animated GIFs with transparent backgrounds).
 
 #### Giphy::sticker()->search($query, $params = [])
 Searches all sticker GIFs for the provided word or phrase and accepts 4 optional parameters as array.
