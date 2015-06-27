@@ -152,4 +152,4 @@ Giphy::sticker()->trending(['limit' => 100, 'rating' => 'pg', 'fmt' => 'html']);
 ````
 
 ## License
-Laravel Giphy is licensed under the [MIT License (MIT)](https://github.com).
+Laravel Giphy is licensed under the [MIT License (MIT)](https://github.com/hiddeco/laravel-giphy/blob/master/LICENSE).
