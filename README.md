@@ -14,7 +14,7 @@ To use this package without running in to trouble you will need PHP 5.5+ or HHVM
 2. Run `composer update` or `composer install`
 
 3. Register the Laravel Giphy service provider in `config/app.php` by adding
-`'HiddeCo\Ghiphy\GiphyServiceProvider` to the providers key
+`'HiddeCo\Giphy\GiphyServiceProvider` to the providers key
 
 4. Add the `Giphy` facade to the `aliases` key: `'Giphy'	=> 'HiddeCo\Giphy\Facades\Giphy'`
 
