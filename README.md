@@ -120,7 +120,7 @@ Searches all sticker GIFs for the provided word or phrase and accepts 4 optional
 - **rating:** limit results by rating (y,g, pg, pg-13 or r)
 - **fmt:** returned format, json or html (default: json)
 ````php
-Giphy::sticker()->search('code', [limit' => 10, 'offset' => 10, 'rating' => 'g', 'fmt' => 'html']);
+Giphy::sticker()->search('code', ['limit' => 10, 'offset' => 10, 'rating' => 'g', 'fmt' => 'html']);
 ````
 
 #### Giphy::sticker()->translate($query, $params = [])
