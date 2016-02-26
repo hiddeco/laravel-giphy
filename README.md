@@ -67,7 +67,7 @@ Searches all GIFs for the provided word or phrase and accepts 4 optional paramet
 - **rating:** limit results by rating (y,g, pg, pg-13 or r)
 - **fmt:** returned format, json or html (default: json)
 ````php
-Giphy::gif()->search('code', [limit' => 10, 'offset' => 10, 'rating' => 'g', 'fmt' => 'html']);
+Giphy::gif()->search('code', ['limit' => 10, 'offset' => 10, 'rating' => 'g', 'fmt' => 'html']);
 ````
 
 #### Gipgy::gif()->get($id)
